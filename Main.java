@@ -21,8 +21,12 @@ class Main {
     int yearsToRun = input.nextInt();
     System.out.println("========================================");
     System.out.println("What is the current size of your account?");
-    double accountSize = input.nextInt();
-    
+    double accountSize = input.nextDouble();
+
+
+    for (i = 0; i <= yearsToRun; i++){
+      
+    }
     
     
     
