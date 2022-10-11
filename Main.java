@@ -19,6 +19,10 @@ class Main {
     System.out.println("========================================");
     System.out.println("How many years would you like to run the calculation for?");
     int yearsToRun = input.nextInt();
+    System.out.println("========================================");
+    System.out.println("What is the current size of your account?");
+    double accountSize = input.nextInt();
+    
     
     
     
