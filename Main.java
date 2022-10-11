@@ -10,10 +10,19 @@ class Main {
     System.out.println("Please enter your savings per paycheck.");
     double savingsPerPaycheck = input.nextDouble();
     System.out.println("Your savings per paycheck is : "+savingsPerPaycheck);
+    // Ask user to enter the number of paychecks that they receive per year
     System.out.println("========================================");
     System.out.println("How many paychecks do you recive per year?");
     int paychecksPerYear = input.nextInt();
-    System.out.println("")
+    System.out.println("You usually receive: "+paychecksPerYear+" paychecks per year");
+    System.out.println("========================================");
+    System.out.println("What is your expected return on investment (a percentage)");
+    double returnOnInvestment = input.nextDouble();
+    System.out.println("Your expected return on investment is: "+ returnOnInvestment + "percent.");
+    System.out.println("========================================");
+    
+    
+    
     
     
     
