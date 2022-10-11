@@ -10,6 +10,9 @@ class Main {
     System.out.println("Please enter your savings per paycheck.");
     double savingsPerPaycheck = input.nextDouble();
     System.out.println("Your savings per paycheck is : "+savingsPerPaycheck);
+    System.out.println("========================================");
+    System.out.println("How many paychecks do you recive per year?");
+    int paychecksPerYear = input.nextInt();
     System.out.println("")
     
     
