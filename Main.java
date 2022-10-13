@@ -14,7 +14,7 @@ class Main {
     System.out.println("How many paychecks do you recive per year?");
     double paychecksPerYear = input.nextInt();
     System.out.println("========================================");
-    System.out.println("What is your expected return on investment (a percentage)");
+    System.out.println("What is your expected return on investment (a percentage as a decimal)");
     double returnOnInvestment = input.nextDouble();
     System.out.println("========================================");
     System.out.println("How many years would you like to run the calculation for?");
@@ -30,7 +30,8 @@ class Main {
         accountSize += savingsPerPaycheck;
       }
     }
-    System.out.println(accountSize);
+    System.out.println("========================================");
+    System.out.println("Your total savings over "+yearsToRun+" is "+accountSize+" Dollars");
     
     
     
