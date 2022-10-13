@@ -25,6 +25,9 @@ class Main {
 
 
     for (i = 0; i <= yearsToRun; i++){
+      for(x = 0; x <= paychecksPerYear; x++){
+        
+      }
       
     }
     
