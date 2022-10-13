@@ -4,6 +4,7 @@ import java.util.Scanner;
 class Main {
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
+    double total = 0;
     // Set up scanner
     System.out.println("=====Retirement Savings Calculator=====");
     // Ask user to enter their savings amount from thier paycheck.
@@ -24,9 +25,10 @@ class Main {
     double accountSize = input.nextDouble();
 
 
-    for (i = 0; i <= yearsToRun; i++){
-      for(x = 0; x <= paychecksPerYear; x++){
-        
+    for (int i = 0; i <= yearsToRun; i++){
+      for(int x = 0; x <= paychecksPerYear; x++){
+        total = (savingsPerPaycheck * paychecksPerYear * 0.07) + accountSize;
+        System.out.println(total);
       }
       
     }
